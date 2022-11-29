@@ -26,7 +26,7 @@ const SDivInfo = styled.div`
         font-weight: bold;
     }
 `
-
+// Tem problema aqui, ele está chamando a função onclick mas não tem
 function Product({product, onClick}){
     return(
         <SDiv onClick={() => onClick(product)}>
